@@ -1,0 +1,264 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+{box-sizing: border-box;}
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cambria";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+.top-wrapper {            
+padding: 190px 0 150px 0;            
+background-image: url("../img/3sigmund-4UGmm3WRUoQ-unsplash.jpg");    
+background-size: cover;            
+color: white;            
+text-align: center;            
+}            
+
+.container {            
+width: 1170px;            
+margin: 0 auto;            
+}            
+
+.top-wrapper h1 {            
+opacity: 0.9;            
+font-size: 45px;  
+text-shadow: 3px 2px 1px gray;          
+letter-spacing: 5px;            
+margin-bottom: 10px;
+}            
+
+.top-wrapper p {            
+color: rgb(201, 203, 204);
+text-shadow: 1px 1px 1px gray;  
+font-family: "roboto";             
+margin-bottom: 3px;            
+}            
+
+.btn-wrapper {            
+margin: 20px 0;            
+}            
+
+.btn-wrapper p {            
+margin: 10px 0;            
+}            
+
+.signup {            
+background-color: #239b76;  
+margin-top: 30px;    
+font-family: 'roboto';      
+}            
+
+.facebook {            
+background-color: #3b5998;            
+margin-right: 10px;            
+}            
+
+.twitter {            
+background-color: #55acee;            
+}            
+
+.btn {            
+padding: 12px 24px;            
+color: white;            
+display: inline-block;            
+opacity: 0.8;            
+border-radius: 15px;            
+}            
+
+.btn:hover {            
+opacity: 1;            
+}            
+
+.fa {            
+margin-right: 5px;            
+}
+header {            
+  height: 65px;            
+  width: 100%;            
+  background-color: rgba(34, 49, 52, 0.9);            
+  position: fixed;            
+  top: 0;            
+  z-index: 10;            
+}            
+
+.logo {            
+  width: 124px;            
+  margin-top: 20px;            
+}            
+
+.header-left {            
+  float: left;            
+}  
+
+.header-left .logo {            
+    width:141px;
+    margin-top: 7px;       
+  }  
+
+.header-left p{  
+    margin-top: 23px;
+    margin-left: 10px;
+    float: right;          
+    color: whitesmoke;            
+  }    
+  
+
+.header-right {            
+  float: right;            
+  background-color: rgba(255, 255, 255, 0.3);            
+  transition: all 0.5s;            
+}            
+
+.header-right:hover {            
+  background-color: rgba(255, 255, 255, 0.5);            
+}            
+
+.header-right a {            
+  line-height: 65px;            
+  padding: 0 25px;            
+  color: white;            
+  display: block;            
+}
+
+.lesson-wrapper .heading h2{
+  margin-left: 23px;
+}
+
+.lesson-wrapper {            
+  height: 450px;  
+  margin-right: 15px;          
+  padding-bottom: 80px;            
+  background-color:white;            
+  text-align: center;              
+}
+
+.lesson-wrapper .container .lessons p {
+  font-family: "roboto";
+}
+
+.lesson-wrapper .lesson .lesson-icon a:hover{
+  background-color: rgba(2, 209, 209, 0.6);            
+  transition: all 0.6s;    
+}
+
+.lesson-wrapper .lesson .lesson-icon img{
+  width: 265px;    
+}
+
+.lesson-wrapper .lesson .resize1 img {
+  width: 215px;    
+}
+
+.lesson-wrapper .lesson .resize2 img {
+  width: 340px;  
+  margin-left: -25px;    
+}
+
+.lesson-wrapper h3 {
+  margin-top: 20px;
+}
+
+.lesson-wrapper .resize h3 {
+  margin-top: 23px;
+}
+
+
+.lesson-wrapper .resize1 h3 {
+  margin-top: 30px;
+}
+
+.lesson-wrapper .resize2 h3 {
+  margin-top: 30px;
+}
+
+.heading {            
+  padding-top: 60px;            
+  padding-bottom: 30px;            
+  color: #5f5d60;            
+}            
+
+.heading h2 {            
+  font-weight: normal;            
+}            
+
+.lesson {            
+  float: left;            
+  width: 25%;            
+}            
+
+.lesson-icon {            
+  position: relative;            
+}            
+
+.lesson-icon p {            
+  position: absolute;            
+  top: 90px;            
+  width: 100%;            
+  color: white;            
+}            
+
+.txt-contents {            
+  width: 80%;            
+  display: inline-block;            
+  margin-top: 20px;            
+  font-size: 15px;            
+  color: #b3aeb5;            
+}
+
+.message-wrapper {       
+  background-color: #6cbfa7;     
+  border-bottom: 1px solid rgb(255, 255, 255);            
+  padding-bottom: 80px;            
+  text-align: center;            
+}   
+
+.message-wrapper span  {       
+  margin: 0 20px;
+}    
+
+.message-wrapper .container .btn{
+  font-family: 'roboto';
+}
+.message {            
+  padding: 15px 40px;            
+  border-bottom: 1px dotted rgb(20, 19, 19);            
+  background-color: rgba(34, 49, 52, 0.9);            
+  cursor: pointer;            
+  box-shadow: 0 7px #4e4e4e;            
+}            
+
+.message:active {            
+  position: relative;            
+  top: 7px;            
+  box-shadow: none;            
+}
+
+footer img {            
+margin: 10px 10px;  
+width: 150px;
+float: left;            
+padding-right: 7px;
+}            
+
+footer .footer-left p { 
+padding-top: 35px;            
+color: #b3aeb5;            
+font-size: 12px;    
+float: right;        
+}            
+
+/*  */
