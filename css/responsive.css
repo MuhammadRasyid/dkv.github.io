@@ -1,0 +1,109 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1{
+        font-size:32px;   
+    } 
+    .heading h2{
+      font-size:20px;
+    }
+    .lesson {
+      width:50%;
+      margin-bottom:50px;
+    }
+    .message-wrapper h2{
+      font-size:20px;
+    }
+    .message-wrapper{
+        width: 100%;
+        overflow: hidden;
+    }
+    footer .container{
+        width: 100%;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    header .container{
+        width: 100%;
+        
+      }        
+      header .container a {
+        float: right;
+        display: block;
+        text-align: right;
+      }
+      
+      .header-right {
+        float: left;
+        
+      }
+      
+      /* top wrapper */
+      .top-wrapper{
+        background-image: url("../img/3sigmund-4UGmm3WRUoQ-unsplash.jpg");                 
+        height:20px;
+        width: 100%;
+      }
+      .top-wrapper .container {
+        margin-top: -35px;
+      }
+      
+      .top-wrapper h1  {                    
+        /* margin-top: -35px; */
+        font-size: 20px;
+        margin-right: 675px;
+      }               
+      .top-wrapper p {           
+        font-size: 17px;
+        margin-right: 680px;
+      }      
+      
+      /* lesson wrapper */
+      .lesson-wrapper{
+        width: 100%;
+      }
+      .lesson-wrapper .lessons .lesson {
+        width:100%;    
+        
+      }
+      .lesson-wrapper .container {
+        /* margin-left: -450px; */
+        margin-left: -345px;
+        text-align: center;
+      }
+      .lesson-wrapper .lessons .lesson p{
+        /* overflow: hidden; */
+        font-size: 11px;
+      }
+      
+      /* message-wrapper */
+      .message-wrapper{
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      
+      .message-wrapper .container .heading {
+        margin-right: 675px;
+      }
+      .message-wrapper .container h2{
+        font-size: 20px;
+      }
+      .message-wrapper .container h3{
+        font-size: 15px;
+      }
+      .message-wrapper .container a{
+        margin-right:670px ;      
+      
+      }
+      .btn {        
+        width: 15%;
+        text-align: center; 
+          
+      
+      }
+      footer .container{
+        width: 100%;
+      }
+  }
